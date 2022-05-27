@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	 <style>
+	 
+		 img {
+		 image-align: left;
+		 margin-right: 50%;
+		 }
+		 
+		 body: {
+		 background-repeat: repeat-y;
+		 
+		 }
+		 
+	 </style>
+		 <body>
+			 <div class="left">
+				 <div class="foto">
+					 <img src="etec.jpg" height="200" width="200" align="right">
+				 </div>
+		 <br>
+		 <h1> Formulário Para Inscrição </h1>
+		 <p> Preencha com atenção os dados requisitados para fazer sua inscrição nos cursos da Etec :) </p>
+	 <form> 
+		 <fieldset>
+			 <legend> Informações Pessoais: </legend>
+		 <label for=nome1 > Nome: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=sobre> Sobrenome: </labe1> <br>
+			 <input type="text" id=sobre name="sobrenome">
+		 <br>
+		 <label for=dt_hora> Data e Hora de nascimento: </labe1> <br>
+				<input type="datetime-local" id=dt_hora name="nascimento" value="">
+							 <br>
+								 <label for=nome1 > RG: </label> <br>
+									 <input type="text" id=nome1 name="nome">		
+										 <br>
+								 <form action="/action_page.php">
+									<label>
+								 <strong> Adicione a foto do documento (frente e verso) *OBRIGATÓRIO: </strong> <input type="file" name="myFile" multiple><br>
+		 </label>
+		 </form>
+	     <form action="/action_page.php"> 
+		 <label>
+			 Gênero: </label><br>
+			 <select name="Gênero">
+				 <option value="sele" selected> Selecione</option>
+					 <option value="masc"> Masculino</option>
+						 <option value="femi"> Feminino</option>
+							 <option value="Pref"> Prefiro não dizer</option>
+							 </select>
+		 <br>
+		  <form>
+			 Estado Civil: <br>
+			 <input type="radio" id="casado" name="est_civil" value="casado">
+				 <label for="casado">Casado</label><br>
+			 
+			 <input type="radio" id="solteiro" name="est_civil" value="solteiro">
+				 <label for="solteiro">Solteiro</label><br>
+				 
+			 <input type="radio" id="viuvo" name="est_civil" value="viuvo">
+				 <label for="viuvo">Viúvo</label><br>
+			
+			 <input type="radio" id="divorciado" name="est_civil" value="divorciado">
+				 <label for="divorciado">Divorciado</label><br>
+		 <br>
+		 <label for=email> Email: </labe1> <br>
+									 <input type="email" id=dt_hora name="nascimento">
+										 <br>
+		 </form>
+		  <label for=nome1 > CEP: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > Endereço: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=qtd> Nº </labe1> <br>
+		 <input type="number" id=dt_hora name="nascimento">
+		 <br>
+		 <label for=nome1 > Estado: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > Cidade: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > Bairro: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > Complemento: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 </fieldset>
+		 <fieldset>
+			 <legend> Número Para Entrar Em Contato: </legend>
+		 <label for=nome1 > DDD+Telefone(fixo): </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > DDD+Celular: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 </fieldset>
+		 <fieldset>
+			 <legend> Informações Sobre A Escola </legend>
+		 <label for=nome1 > Escola onde estuda: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		  <label for=nome1 > RA: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <form action="/action_page.php"> 
+		 <label>
+			 Série: </label><br>
+			 <select name="Série">
+				 <option value="sele" selected> Selecione</option>
+					 <option value="masc"> 9ºAno</option>
+						 <option value="femi"> 1ºAno (Ensino Médio)</option>
+							 <option value="Pref"> 2ºAno (Ensino Médio)</option>
+								 <option value="Pref"> 3ºAno (Ensino Médio)</option>
+									  <option value="Pref"> Prefiro não dizer</option>
+							 </select>
+		 <br>
+		 <label for=nome1 > Nome da mãe: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <label for=nome1 > Nome do pai: </label> <br>
+			 <input type="text" id=nome1 name="nome">
+		 <br>
+		 <form action="/action_page.php"> 
+		 <label>
+		 </fieldset>
+		 <fieldset>
+			 <legend> Áreas De Interesse </legend>
+			 Curso que está interessado: </label><br>
+			 <select name="Série">
+				 <option value="sele" selected> Selecione</option>
+					 <option value="masc"> Designer De Sites e Plataformas Digitais </option>
+						 <option value="femi"> Jogos Digitais </option>
+							 <option value="Pref"> Criação de sites</option>
+								 <option value="Pref"> Animação</option>
+								 <!-- Pro, se você estiver lendo isso: eu fiz apenas 4 opoções porque eu estou com preguiça de colocar mais :P PS: você é maravilhosa <3 -->
+							 </select>
+			 <br>
+			 Área De interesse: </label><br>
+			 <select name="Série">
+				 <option value="sele" selected> Selecione</option>
+					 <option value="masc"> Humanas </option>
+						 <option value="femi"> Exatas </option>
+								 <!-- Aqui eu estou sem criatividade :/ PS 2.0: você é maravilhosa <3 -->
+							 </select>
+		 <!-- mds, eu não sei o que mais colocar aaaa- eu quero chorar :( -->
+		 <br>
+		 <form action="/action_page.php">
+		 <label>
+			 Agora que você chegou ao fim do formulário, selecione sua cor favorita :) :
+				 <input type="color" name="favcolor" value="#ff0000">
+		 </label>
+
+	 </form>
+		 </fieldset>
+		 <br>
+		 <br>
+		 <input type="submit" value="Enviar">
+		 <input type="reset" value="Limpar">
+		 </form>
